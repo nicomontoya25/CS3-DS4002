@@ -1,4 +1,4 @@
-# Project 3 - Classification of Dermal Medical Imaging
+# Case Study (CS3) - Classification of Dermal Medical Imaging
 ## Software 
 
 Primary Software: Jupyter Notebook  
