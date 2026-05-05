@@ -37,37 +37,18 @@ milestones/
 ├── milestone1.pdf
 └── milestone2.pdf
 
-outputs/
-├── EDA/
-│   ├── age-distribution.png
-│   ├── age_vs_dx_heatmap.png
-│   ├── class_distribution.png
-│   ├── localization_distribution.png
-│   ├── localization_vs_dx_heatmap.png
-│   ├── sex_distribution.png
-│   └── sex_vs_dx_heatmap.png
-├── classification_reports 
-│   ├── mobilenet_image_only_5fold_summary.png
-│   ├── mobilenet_multimodal_5fold_summary.png
-│   ├── resnet_image_only_5fold_summary.png
-│   └── resnet_multimodal_5fold_summary.png
-└── confusion_matrices 
-│   ├── mobilenet_image_only_confusion_matrix_5fold_average.png
-│   ├── mobilenet_multimodal_confusion_matrix_5fold_average.png
-│   ├── resnet_image_only_confusion_matrix_5fold_average.png
-│   └── resnet_multimodal_confusion_matrix_5fold_average.png
-
 scripts/
 ├── eda.ipynb
 ├── mobilenetv2_modeling_and_analysis.ipynb
 └── resnet_model_and_analysis.ipynb
 
 .gitignore
+CS3_Hook_NicoM.pdf
 LICENSE
 README.md
 ```
 
-## Instructions for Reproduction  
+## Instructions 
 
 ### i.) Pulling the Data  
 - The data was obtained a dataset from the Harvard Dataverse called “The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions.” The dataset includes two zip files: HAM10000_images_part_1.zip and HAM10000_images_part_2.zip. These two files were unzipped and combined to create one large file which we used for our models. Each file had roughly 5,000 jpegs so the large combined file has over 10,000 jpegs. Due to the size of the combined file, the dataset is too large to upload onto github. Once the large file is created, the data can be stored locally and used to run the models. We also uploaded the metadata file to use for a multimodal model. The link to these files can be found here: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T
