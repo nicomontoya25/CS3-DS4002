@@ -43,6 +43,8 @@ CS3_Hook_NicoM.pdf
 CS3_Rubric_NicoM.pdf
 LICENSE
 README.md
+Supp_Material_Article.pdf
+Supp_Material_Tech.pdf
 ```
 
 ## Instructions 
