@@ -33,10 +33,6 @@ Platform: macOS
 data/
 └── metadata
 
-milestones/
-├── milestone1.pdf
-└── milestone2.pdf
-
 scripts/
 ├── eda.ipynb
 ├── mobilenetv2_modeling_and_analysis.ipynb
