@@ -40,6 +40,7 @@ scripts/
 
 .gitignore
 CS3_Hook_NicoM.pdf
+CS3_Rubric_NicoM.pdf
 LICENSE
 README.md
 ```
@@ -61,6 +62,8 @@ README.md
 6. Create a heatmap of the localization vs dx and save as an image to the outputs folder on Github  
 7. Create a heatmap of the age vs dx and save as an image to the outputs folder on Github
 8. Create a heatmap of the sex vs dx and save as an image to the outputs folder on Github  
+
+- Feel free to explore additional combinations or relationships as you see fit!
 
 ### MobileNet Models
 #### Cleaning 
